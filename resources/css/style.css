@@ -6,6 +6,6 @@ body {
 }
 
 .intro {
-  border: 5px solid #FFF;
-  margin: 20px;
+  text-align: center;
+  padding: 30px;
 }
