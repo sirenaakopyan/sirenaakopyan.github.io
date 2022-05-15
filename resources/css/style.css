@@ -3,5 +3,9 @@ body {
 	margin: 0;
 	text-align: center;
 	width: 100%;
+}
+
+.intro {
   border: 5px solid #FFF;
+  margin: 20px;
 }
