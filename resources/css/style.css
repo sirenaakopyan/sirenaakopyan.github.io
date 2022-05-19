@@ -5,6 +5,10 @@ body {
 
 }
 
+element.style {
+	padding: 40px;
+}
+
 .intro {
 	padding: 40px;
   text-align: center;
