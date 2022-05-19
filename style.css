@@ -17,3 +17,8 @@ element.style {
 .hi {
 	text-align: center;
 }
+
+.resumelink {
+	text-align: right;
+	padding: 20px;
+}
