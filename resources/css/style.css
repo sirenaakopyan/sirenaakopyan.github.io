@@ -9,4 +9,6 @@ body {
 .intro {
   text-align: center;
   padding: 30px;
+	margin: 20px;
+	border: 20px;
 }
