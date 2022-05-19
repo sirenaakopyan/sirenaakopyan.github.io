@@ -1,7 +1,8 @@
 body {
 	text-align: center;
 	margin: 0;
-	padding: 0;
+	padding-left: 40px;
+  padding-right: 40px;
 
 }
 
@@ -10,11 +11,8 @@ element.style {
 }
 
 .intro {
-	padding: 40px;
-  text-align: center;
 }
 
 .hi {
-	padding: 40px;
-	text-align: left;
+
 }
