@@ -11,11 +11,15 @@ element.style {
 }
 
 .intro {
+  padding-right: 400px;
+  padding-left: 50px;
 
 }
 
 .hi {
 	text-align: center;
+  padding-right: 400px;
+  padding-left: 50px;
 }
 
 
