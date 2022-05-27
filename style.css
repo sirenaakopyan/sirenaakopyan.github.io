@@ -1,5 +1,4 @@
 body {
-	text-align: center;
 	margin: 0;
 	padding-left: 100px;
   padding-right: 100px;
@@ -18,8 +17,20 @@ body {
 
 
 .intro {
-  font-size: 22px;
+	&.vd {
+		display: inline-block;
+		vertical-align: top;
+		width: 46%;
+	}
+
+	&.intro_para {
+		font-size: 22px;
+		display: inline-block;
+		text-align: center;
+		width: 46%;
+	}
 }
+
 
 .hi {
 	text-align: center;
