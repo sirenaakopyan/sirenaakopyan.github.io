@@ -19,7 +19,7 @@ body {
 .intro {
 		display: inline-block;
 		vertical-align: top;
-		padding: 30px;
+		margin: 30px;
 }
 
 #intro_para {
