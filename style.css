@@ -17,13 +17,13 @@ body {
 
 
 .intro {
-	&.vd {
+	#vd {
 		display: inline-block;
 		vertical-align: top;
 		width: 46%;
 	}
 
-	&.intro_para {
+	#intro_para {
 		font-size: 22px;
 		display: inline-block;
 		text-align: center;
