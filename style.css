@@ -3,23 +3,27 @@ body {
 	margin: 0;
 	padding-left: 100px;
   padding-right: 100px;
+  background-color: #DEDBD2;
+  font-family: 'Playfair Display';
+
 
 }
 
-element.style {
-	padding: 40px;
+.title_background {
+	background-color: #B0C4B1;
+  padding: 80px;
+
 }
+
+
 
 .intro {
-  padding-right: 400px;
-  padding-left: 50px;
-
+  font-size: 22px;
 }
 
 .hi {
 	text-align: center;
-  padding-right: 400px;
-  padding-left: 50px;
+  color: white;
 }
 
 
