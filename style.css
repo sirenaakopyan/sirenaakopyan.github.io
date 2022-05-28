@@ -37,9 +37,9 @@ body {
 #intro_para {
 	font-size: 22px;
 	text-align: center;
-	width: 46%;
+	width: 30%;
   margin: 20px;
-
+  margin-top: 60px;
 }
 
 .hi {
