@@ -29,11 +29,16 @@ body {
 
 }
 
+#vd {
+  position: 25% 50%;
+}
+
 #intro_para {
 	font-size: 22px;
 	text-align: center;
 	width: 46%;
 	float: right;
+  position: 75% 50%;
 }
 
 .hi {
