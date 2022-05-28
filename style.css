@@ -1,7 +1,13 @@
+html, body {
+  min-height: 100%;
+	display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
 body {
 	margin: 0;
-	padding-left: 100px;
-  padding-right: 100px;
+	justify-content: center;
   background-color: #DEDBD2;
   font-family: 'Playfair Display';
 
@@ -10,7 +16,7 @@ body {
 
 .title_background {
 	background-color: #B0C4B1;
-  padding: 125px;
+  padding: 120px;
 
 }
 
@@ -19,7 +25,8 @@ body {
 .intro {
 		display: inline-block;
 		vertical-align: top;
-		margin: 50px;
+		margin: 100px;
+
 }
 
 #intro_para {
@@ -53,6 +60,6 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 26px;
   text-decoration: none;
 }
