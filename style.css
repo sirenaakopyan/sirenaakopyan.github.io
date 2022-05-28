@@ -10,7 +10,7 @@ body {
 
 .title_background {
 	background-color: #B0C4B1;
-  padding: 100px;
+  padding: 125px;
 
 }
 
@@ -19,7 +19,7 @@ body {
 .intro {
 		display: inline-block;
 		vertical-align: top;
-		margin: 100px;
+		margin: 50px;
 }
 
 #intro_para {
