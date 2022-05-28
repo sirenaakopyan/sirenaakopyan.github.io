@@ -74,4 +74,13 @@ li a {
 	justify-content: center;
 	flex-wrap: wrap;
 	display: flex;
+	text-align: center;
+
+}
+
+.featured_body {
+	justify-content: center;
+	flex-wrap: wrap;
+	display: flex;
+	text-align: center;
 }
