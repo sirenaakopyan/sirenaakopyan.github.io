@@ -72,8 +72,6 @@ li a {
 
 .projects_body {
 	justify-content: center;
-	flex-wrap: wrap;
-	display: flex;
 	text-align: center;
 
 }
