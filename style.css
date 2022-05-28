@@ -1,7 +1,6 @@
 html, body {
   min-height: 100%;
 	display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
 }
 
@@ -23,22 +22,24 @@ body {
 
 
 .intro {
-		display: inline-block;
-		vertical-align: top;
-		margin: 100px;
+		margin-top: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
 
 }
 
 #vd {
-  position: 25% 50%;
+  margin: 20px;
 }
+
 
 #intro_para {
 	font-size: 22px;
 	text-align: center;
 	width: 46%;
-	float: right;
-  position: 75% 50%;
+  margin: 20px;
+
 }
 
 .hi {
