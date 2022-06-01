@@ -54,7 +54,13 @@ body {
   list-style-type: none;
   margin: 0;
   background-color: #333;
+  position: fixed;
+  width: 100%;
+}
 
+.bar a:hover {
+  background: #B0C4B1;
+  color: black;
 }
 
 li {
@@ -73,6 +79,7 @@ li a {
 .projects_body {
 	justify-content: center;
 	text-align: center;
+  margin-top: 30px;
 }
 
 .featured_body {
