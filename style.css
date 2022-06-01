@@ -10,7 +10,6 @@ body {
   background-color: #DEDBD2;
   font-family: 'Playfair Display';
 
-
 }
 
 .title_background {
@@ -63,12 +62,12 @@ body {
   color: black;
 }
 
-li {
+.bar li {
   display: inline;
   float: right;
 
 }
-li a {
+.bar li a {
   display: block;
   color: white;
   text-align: center;
@@ -90,4 +89,21 @@ li a {
 .projects_volunteering {
 	justify-content: center;
 	text-align: center;
+}
+
+footer {
+  display: block;
+  background-color: #B0C4B1;
+  text-align: center;
+  width: 100%;
+
+}
+
+footer li {
+  display: inline;
+  float: left;
+  padding: 0px 20px;
+  margin: 0;
+  color: white;
+  font-size: 18px;
 }
