@@ -46,7 +46,10 @@ body {
   color: white;
 }
 
-
+#VDwWords {
+  width: 80%
+  justify-content: center;
+}
 
 .bar {
   overflow: hidden;
