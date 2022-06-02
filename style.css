@@ -7,13 +7,13 @@ html, body {
 body {
 	margin: 0;
 	justify-content: center;
-  background-color: #B0C4B1;
+  background-color: #F3F1EB;
   font-family: 'Playfair Display';
 
 }
 
 .title_background {
-	background-color: #F3F1EB;
+	background-color: #B0C4B1;
   padding: 120px;
 
 }
