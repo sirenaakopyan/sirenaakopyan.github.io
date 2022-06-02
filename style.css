@@ -74,6 +74,7 @@ body {
   padding: 14px 10px;
   margin-right: 60px;
   text-decoration: none;
+  font-size: 22px;
 }
 
 .projects_body {
@@ -107,5 +108,5 @@ footer li {
   float: left;
   padding: 0px 14px;
   color: white;
-  font-size: 22px;
+  font-size: 18px;
 }
