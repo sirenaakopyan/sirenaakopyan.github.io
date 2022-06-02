@@ -7,7 +7,7 @@ html, body {
 body {
 	margin: 0;
 	justify-content: center;
-  background-color: #F3F1EB;
+  background-color: #DEDBD2;
   font-family: 'Playfair Display';
 
 }
@@ -46,10 +46,7 @@ body {
   color: white;
 }
 
-#VDwWords {
-  width: 80%
-  justify-content: center;
-}
+
 
 .bar {
   overflow: hidden;
@@ -74,7 +71,7 @@ body {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 20px;
+  padding: 14px 10px;
   margin-right: 60px;
   text-decoration: none;
 }
@@ -82,17 +79,19 @@ body {
 .projects_body {
 	justify-content: center;
 	text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .featured_body {
 	justify-content: center;
 	text-align: center;
+  margin-top: 50px;
 }
 
 .projects_volunteering {
 	justify-content: center;
 	text-align: center;
+  margin-top: 50px;
 }
 
 footer {
@@ -100,13 +99,13 @@ footer {
   background-color: #B0C4B1;
   text-align: center;
   width: 100%;
+
 }
 
 footer li {
   display: inline;
   float: left;
-  padding: 0px 20px;
-  margin: 0;
+  padding: 0px 14px;
   color: white;
-  font-size: 22px;
+  font-size: 18px;
 }
