@@ -1,3 +1,10 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Web Page</title>
+<script>
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -26,3 +33,5 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+</script>
+</head>
