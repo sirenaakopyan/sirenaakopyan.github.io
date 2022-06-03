@@ -36,7 +36,6 @@ body {
 #intro_para {
 	font-size: 22px;
 	text-align: center;
-	width: 30%;
   margin: 20px;
   margin-top: 150px;
 }
@@ -110,6 +109,10 @@ footer li {
   color: white;
   font-size: 18px;
 }
+
+
+
+
 
 
 * {box-sizing:border-box}
