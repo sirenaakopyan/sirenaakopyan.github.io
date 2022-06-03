@@ -22,19 +22,17 @@ body {
 
 
 .container-fluid {
+  justify-content: center;
 }
 
 #vd {
-  margin: 80px;
-
 }
 
 #intro_para {
 	font-size: 22px;
 	text-align: center;
-  margin: 80px;
-  margin-top: 150px;
-
+  width: 80%;
+  margin-top: 40px;
 }
 
 
