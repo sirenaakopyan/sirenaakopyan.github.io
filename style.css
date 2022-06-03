@@ -28,6 +28,12 @@ body {
 
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
 #vd {
   margin: 20px;
 }
