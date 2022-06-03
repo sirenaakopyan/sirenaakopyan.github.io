@@ -2,6 +2,7 @@ html, body {
   min-height: 100%;
 	display: flex;
   flex-direction: column;
+
 }
 
 body {
@@ -20,31 +21,20 @@ body {
 
 
 
-.intro {
-		margin-top: 50px;
-    justify-content: center;
-    flex-wrap: wrap;
-    display: flex;
-
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center
+.container-fluid {
 }
 
 #vd {
-  margin: 20px;
-}
+  margin: 80px;
 
+}
 
 #intro_para {
 	font-size: 22px;
 	text-align: center;
-  margin: 20px;
-  width: 40%;
-  float: right;
+  margin: 80px;
+  margin-top: 150px;
+
 }
 
 
