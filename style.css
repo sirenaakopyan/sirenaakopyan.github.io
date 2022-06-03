@@ -43,7 +43,10 @@ body {
 	font-size: 22px;
 	text-align: center;
   margin: 20px;
+  width: 40%;
+  float: right;
 }
+
 
 .hi {
 	text-align: center;
