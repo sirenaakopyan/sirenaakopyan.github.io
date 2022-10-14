@@ -89,6 +89,16 @@ body {
   margin-top: 50px;
 }
 
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 20px;
+}
 
 footer {
   display: block;
