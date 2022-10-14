@@ -107,7 +107,7 @@ body {
 }
 
 .slider-image {
-  float: center;
+  float: left;
   margin:0px;
   padding:0px;
 }
