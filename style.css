@@ -94,6 +94,9 @@ body {
 .slide-container {
   width: 700px;
   height: 533px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
 }
 
 .image-container {
