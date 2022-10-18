@@ -27,7 +27,7 @@ body {
   position: relative;
   width: 525px;
   height: 381px;
-  z-index: 5;
+  z-index: 9999;
 }
 
 #intro_para {
@@ -52,10 +52,10 @@ body {
   list-style-type: none;
   margin: 0;
   background-color: #333;
-  position: fixed;
+  position: relative;
   width: 100%;
   font-family: 'Playfair Display'
-  z-index: 9999;
+  z-index: 1;
 }
 
 .bar a:hover {
