@@ -16,6 +16,8 @@ body {
 	background-color: #B0C4B1;
   padding: 250px;
   margin-bottom: 40px;
+  background-blend-mode: darken;
+  backdrop-filter: blur(45px);
 }
 
 
