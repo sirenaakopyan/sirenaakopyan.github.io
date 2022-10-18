@@ -13,24 +13,23 @@ body {
 }
 
 .title_background {
-/*	background-color: #B0C4B1;
+	background-color: #B0C4B1;
   padding: 250px;
-  margin-bottom: 40px;*/
+  margin-bottom: 40px;
 }
 
 .hi {
 	text-align: center;
   color: white;
   font-family: 'Playfair Display'
-  position: relative;
 }
 
-#background_photo {
+/*#background_photo {
   width: 100%
   padding: 0;
   margin-bottom: 40px;
   position: relative;
-}
+}*/
 
 .container-fluid {
 }
