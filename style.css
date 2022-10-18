@@ -24,9 +24,10 @@ body {
 }
 
 #vd {
-  position: fixed;
+  position: relative;
   width: 525px;
   height: 381px;
+  z-index: 5;
 }
 
 #intro_para {
