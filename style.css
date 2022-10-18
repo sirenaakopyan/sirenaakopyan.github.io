@@ -18,7 +18,9 @@ body {
   margin-bottom: 40px;
 }
 
-
+#background_photo {
+  width: 100%
+}
 
 .container-fluid {
 }
