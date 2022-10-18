@@ -75,6 +75,8 @@ body {
   margin-right: 60px;
   text-decoration: none;
   font-size: 18px;
+  font-family: 'Playfair Display'
+
 }
 
 .projects_body {
@@ -115,6 +117,7 @@ footer {
   text-align: center;
   width: 100%;
   margin-top: 50px;
+  font-family: 'Playfair Display'
 
 }
 
