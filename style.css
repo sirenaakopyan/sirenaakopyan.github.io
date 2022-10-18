@@ -54,8 +54,7 @@ body {
   position: fixed;
   width: 100%;
   font-family: 'Playfair Display'
-  z-index: 1;
-
+  z-index: 100;
 }
 
 .bar a:hover {
