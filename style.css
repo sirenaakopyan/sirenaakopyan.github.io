@@ -25,6 +25,9 @@ body {
 }
 
 #vd {
+  position: relative;
+  width: 525px;
+  height: 381px;
 }
 
 #intro_para {
