@@ -24,7 +24,7 @@ body {
 }
 
 #vd {
-  position: relative;
+  position: fixed;
   width: 525px;
   height: 381px;
 }
@@ -54,7 +54,7 @@ body {
   position: fixed;
   width: 100%;
   font-family: 'Playfair Display'
-  z-index: 100;
+  z-index: 1;
 }
 
 .bar a:hover {
