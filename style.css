@@ -1,3 +1,7 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
 html, body {
   min-height: 100%;
 	display: flex;
@@ -8,7 +12,7 @@ body {
 	margin: 0;
 	justify-content: center;
   background-color: #FFFFFF;
-  font-family: 'Playfair Display';
+  font-family: 'Poppins', sans-serif;
 
 }
 
@@ -21,7 +25,7 @@ body {
 .hi {
 	text-align: center;
   color: white;
-  font-family: 'Playfair Display'
+  font-family: 'Poppins', sans-serif;
 }
 
 /*#background_photo {
