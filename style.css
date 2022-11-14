@@ -103,6 +103,13 @@ body {
 	justify-content: center;
 	text-align: center;
   margin-top: 25px;
+ 
+}
+
+#text_hack {
+  width: 75%;
+  text-align: center;
+  justify-content: center;
   display: block;
   margin-left: auto;
   margin-right: auto
@@ -117,6 +124,7 @@ body {
 
 .gallery-item {
   margin: 20px;
+	text-align: center;
 }
 
 footer {
