@@ -16,7 +16,6 @@ body {
 
 .title_background {
 	background-color: #333;
-  ;
   padding: 250px;
   margin-bottom: 40px;
 }
@@ -47,7 +46,7 @@ body {
 #intro_para {
 	font-size: 22px;
 	text-align: center;
-  width: 80%;
+  width: 75%;
   margin-top: 40px;
   font-family: 'Poppins', sans-serif;
 }
