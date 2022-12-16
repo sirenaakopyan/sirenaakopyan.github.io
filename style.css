@@ -1,3 +1,92 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 html, body {
@@ -15,44 +104,34 @@ body {
 }
 
 .title_background {
-	background-color: #333;
-  padding: 250px;
+  background-color: #333;
+  padding: 100px;
+  /* adjust the padding based on the desired appearance on different screen sizes */
   margin-bottom: 40px;
 }
 
 .hi {
-	text-align: center;
+  text-align: center;
   color: white;
   font-family: 'Poppins', sans-serif;
-}
-
-/*#background_photo {
-  width: 100%
-  padding: 0;
-  margin-bottom: 40px;
-  position: relative;
-}*/
-
-/*.container-fluid {
-}*/
-
-#vd {
-  position: relative;
-  width: 525px;
-  height: 381px;
-  z-index: 9999;
-}
-
-#intro_para {
-	font-size: 22px;
-	text-align: center;
-  width: 75%;
-  margin-top: 40px;
-  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  /* adjust the font size based on the desired appearance on different screen sizes */
 }
 
 
+.container {
+  text-align: center;
+  /* center the elements within the container */
+}
 
+#venn-diagram, #intro_paragraph {
+  width: 50%;
+    /* specify a width for both elements */
+    display: inline-block;
+    /* display both elements as inline blocks */
+    vertical-align: top;
+    /* align the top edges of both elements */
+  }
 
 .bar {
   overflow: hidden;
@@ -63,18 +142,14 @@ body {
   width: 100%;
   font-family: 'Poppins', sans-serif;
   z-index: 1;
-}
-
-.bar a:hover {
-  background: #ffffff;
-  color: black;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .bar li {
   display: inline;
-  float: right;
-
 }
+
 .bar li a {
   display: block;
   color: white;
