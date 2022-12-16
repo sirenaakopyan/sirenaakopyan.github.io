@@ -100,7 +100,7 @@ body {
 	justify-content: center;
   background-color: #FFFFFF;
   font-family: 'Poppins', sans-serif;
-
+  padding-bottom: 50px;
 }
 
 .title_background {
@@ -141,23 +141,23 @@ body {
   position: relative;
   width: 100%;
   font-family: 'Poppins', sans-serif;
-  z-index: 1;
   display: flex;
   justify-content: flex-end;
 }
 
 .bar li {
   display: inline;
+  order: -1;
 }
 
 .bar li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 10px;
+  padding: 20px 10px;
   margin-right: 60px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Poppins', sans-serif;
 
 }
@@ -202,13 +202,15 @@ body {
 	text-align: center;
 }
 
-footer {
-  display: block;
-  text-align: center;
+footer class="sticky-bottom"{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 100px;
+  margin-bottom: 50px;
   font-family: 'Poppins', sans-serif;
-
 }
 
 footer li {
@@ -217,8 +219,7 @@ footer li {
   padding: 0px 20px;
   color: white;
   font-size: 18px;
-  font-family: 'Poppins', sans-serif;
-
+  font-family: inherit;
 }
 
 @media screen and (max-width: 768px) {
