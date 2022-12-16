@@ -126,12 +126,23 @@ body {
 
 #venn-diagram, #intro_paragraph {
   width: 50%;
-    /* specify a width for both elements */
+  display: inline-block;
+}
+
+  #venn-diagram {
+    width: 100%;
     display: inline-block;
-    /* display both elements as inline blocks */
     vertical-align: top;
-    /* align the top edges of both elements */
   }
+ 
+  #intro_paragraph {
+   width: 25%;
+   display: inline-block;
+   text-align: center;
+   vertical-align: center;
+   margin: 0 auto;
+ }
+
 
 .bar {
   overflow: hidden;
@@ -161,6 +172,7 @@ body {
   font-family: 'Poppins', sans-serif;
 
 }
+
 
 .projects_body {
 	justify-content: center;
