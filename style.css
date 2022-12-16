@@ -145,3 +145,15 @@ footer li {
   font-family: 'Poppins', sans-serif;
 
 }
+
+@media screen and (max-width: 768px) {
+  /* styles for screens with a width up to 768px */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* styles for screens with a width between 769px and 1024px */
+}
+
+@media screen and (min-width: 1025px) {
+  /* styles for screens with a width larger than 1025px */
+}
