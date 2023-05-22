@@ -1,106 +1,19 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
-html, body {
-  min-height: 100%;
-	display: flex;
-  flex-direction: column;
+html{
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 body {
-	margin: 0;
-	justify-content: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: #FFFFFF;
-  font-family: 'Poppins', sans-serif;
-  padding-bottom: 50px;
+}
+
+main {
+  flex: 1;
+  margin-left: 1rem;
 }
 
 .title_background {
@@ -108,39 +21,45 @@ body {
   padding: 100px;
   /* adjust the padding based on the desired appearance on different screen sizes */
   margin-bottom: 40px;
+  
 }
 
 .hi {
   text-align: center;
   color: white;
   font-family: 'Poppins', sans-serif;
-  font-size: 24px;
-  /* adjust the font size based on the desired appearance on different screen sizes */
 }
 
+.name {
+  font-size: 1em;
+}
+
+.careers {
+  font-size: .5em;
+}
 
 .container {
   text-align: center;
   /* center the elements within the container */
 }
 
-#venn-diagram, #intro_paragraph {
-  width: 50%;
-  display: inline-block;
-}
+.about {
+    display: grid;
+    grid-gap: 2rem;
+    margin: 2rem 0;
+    padding: 1em;
+    align-content: center;
+  }
 
   #venn-diagram {
     width: 100%;
-    display: inline-block;
-    vertical-align: top;
   }
  
   #intro_paragraph {
-   width: 25%;
-   display: inline-block;
    text-align: center;
    vertical-align: center;
    margin: 0 auto;
+   align-content: center;
  }
 
 
@@ -151,7 +70,7 @@ body {
   background-color: #333;
   position: relative;
   width: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-weight: 300;  
   display: flex;
   justify-content: flex-end;
 }
@@ -214,34 +133,76 @@ body {
 	text-align: center;
 }
 
-footer class="sticky-bottom"{
-  position: fixed;
+footer {
+  margin-top: auto;
+  text-align: center;
+  color: #333333;
+  padding: 10px;
+  position: relative;
   bottom: 0;
-  left: 0;
-  right: 0;
   width: 100%;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  font-family: 'Poppins', sans-serif;
 }
 
 footer li {
   display: inline-block;
-  list-style-type: none;
-  padding: 0px 20px;
-  color: white;
-  font-size: 18px;
-  font-family: inherit;
+  padding-right: 40px;
 }
 
-@media screen and (max-width: 768px) {
-  /* styles for screens with a width up to 768px */
+@media (max-width: 991px) {
+  .featured-articles {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  /* styles for screens with a width between 769px and 1024px */
+@media (max-width: 767px) {
+  .featured-articles {
+    grid-template-columns: 1fr;
+  }
 }
 
-@media screen and (min-width: 1025px) {
-  /* styles for screens with a width larger than 1025px */
+@media (min-width: 520px) and (max-width: 851px) {
+  .featured-articles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 852px) {
+  .featured-articles {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 991px) {
+  .title_background {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+  }
+
+  .hi {
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .name {
+    font-size: 6em;
+  }
+
+  .careers {
+    font-size: 1.5em;
+  }
+
+  .bar {
+    justify-content: center;
+  }
+
+  .bar li a {
+    padding-right: 40px;
+    margin-right: 0px;
+  }
+
 }
