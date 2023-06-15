@@ -11,6 +11,19 @@ body {
   background-color: #FFFFFF;  
 }
 
+/* .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+} */
+
+
 main {
   flex: 1;
   margin-left: 1rem;
@@ -41,6 +54,61 @@ main {
 .container {
   text-align: center;
   /* center the elements within the container */
+}
+
+.project-heading {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.card {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  max-width: 250px;
+  min-height: 300px;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.modal-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-dialog {
+  min-width: 800px; /* Adjust the width as desired */
+}
+
+.project-card {
+  max-width: 250px;
+  min-height: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-color: #f2f2f2;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .about {

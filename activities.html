@@ -31,54 +31,101 @@
         <li><a href="contact.html">CONTACT</a></li>
     </nav>
 
-    <header class="title_background">
-        <div class="hi">
-            <h1>Sirena Akopyan</h1>
-            <h2>Data Analyst | Software Developer | Product Manager</h2>
+    <div class="card-container">
+        <div class="card" data-toggle="modal" data-target="#myModal1" style="background-image: url('img/1.png');">
+          <h3>Data Analysis</h3>
+          <p></p>
         </div>
-    </header>
-
-
-
-    <div class="container">
-        <div class="About">
-            <div class="row">
-                <div class="col">
-                    <img id="venn-diagram" src="meVD.jpg"
-                        alt="Venn diagram showing the intersection of finance, engineering, and design with me in the middle">
-                </div>
-                <div class="col">
-                    <p id="intro-paragraph">I am a junior at the University of Washington
-                        studying Information Sciences and minoring in Business Administration.
-                        I enjoy synthesizing my programming skills with my interest in product development to build
-                        data-driven
-                        products that prioritize user needs.
-                    </p>
-                </div>
+        <div class="card" data-toggle="modal" data-target="#myModal2" style="background-image: url('img/2.png');">
+          <h3>Development</h3>
+          <p></p>
+        </div>
+        <div class="card" data-toggle="modal" data-target="#myModal3" style="background-image: url('img/3.png');">
+          <h3>Product</h3>
+          <p></p>
+        </div>
+      </div>
+    
+      <!-- Modal 1 -->
+      <div class="modal fade" id="myModal1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Data Analysis</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
+            <div class="modal-body">
+              <div class="project-card" onclick="window.open('https://project1.com', '_blank')" style="background-image: url('project1.jpg');">
+                <h6>Project 1</h6>
+                <p>Description of Project 1.</p>
+              </div>
+              <div class="project-card" onclick="window.open('https://project2.com', '_blank')" style="background-image: url('project2.jpg');">
+                <h6>Project 2</h6>
+                <p>Description of Project 2.</p>
+              </div>
+              <div class="project-card" onclick="window.open('https://project3.com', '_blank')" style="background-image: url('project3.jpg');">
+                <h6>Project 3</h6>
+                <p>Description of Project 3.</p>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-
-    <footer>
-        <div class="container">
-            <ul class="footer_li">
-                <li>
-                    <p><a href="https://www.linkedin.com/in/sirena-akopyan/" target="_blank"><img
-                                src="contact-icons/linkedin.png" alt="LinkedIn" style="width:40px;height:40px;"></a></p>
-                </li>
-
-                <li>
-                    <p><a href="mailto:sirenaakopyan@gmail.com" target="_blank"><img src="contact-icons/email.png"
-                                alt="Mail" style="width:40px;height:40px;"></a></p>
-                </li>
-
-                <li>
-                    <p><a href="https://github.com/sirenaakopyan" target="_blank"><img src="contact-icons/github.png"
-                                alt="Github" style="width:40px;height:40px;"></a></p>
-                </li>
-            </ul>
+      </div>
+    
+      <!-- Modal 2 -->
+      <div class="modal fade" id="myModal2">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Development</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="project-card" onclick="window.open('https://project4.com', '_blank')" style="background-image: url('project4.jpg');">
+                <h6>Project 4</h6>
+                <p>Description of Project 4.</p>
+              </div>
+              <div class="project-card" onclick="window.open('https://project5.com', '_blank')" style="background-image: url('project5.jpg');">
+                <h6>Project 5</h6>
+                <p>Description of Project 5.</p>
+              </div>
+              <div class="project-card" onclick="window.open('https://project6.com', '_blank')" style="background-image: url('project6.jpg');">
+                <h6>Project 6</h6>
+                <p>Description of Project 6.</p>
+              </div>
+            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+    
+      <!-- Modal 3 -->
+      <div class="modal fade" id="myModal3">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Product</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="project-card" onclick="window.open('https://project7.com', '_blank')" style="background-image: url('project7.jpg');">
+                <h6>Project 7</h6>
+                <p>Description of Project 7.</p>
+              </div>
+              <div class="project-card" onclick="window.open('https://project8.com', '_blank')" style="background-image: url('project8.jpg');">
+                <h6>Project 8</h6>
+                <p>Description of Project 8.</p>
+              </div>
+              <div class="project-card" onclick="window.open('https://project9.com', '_blank')" style="background-image: url('project9.jpg');">
+                <h6>Project 9</h6>
+                <p>Description of Project 9.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
