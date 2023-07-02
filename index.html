@@ -18,13 +18,35 @@
 </head>
 
 <body>
-    <nav class="bar">
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="#about">ABOUT</a></li>
-      <li><a href="#resume">RESUME</a></li>
-      <li><a href="#projects">PROJECTS</a></li>
-      <li><a href="#contact">CONTACT</a></li>
-    </nav>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container justify-content-center">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#resume">RESUME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+
+  
 
   <section id="section1">
     <header class="title_background">
@@ -40,7 +62,7 @@
       <div class="about">
           <div class="row">
               <div class="col">
-                  <img id="venn-diagram" src="img/circle_profile_m.png"
+                  <img id="profile-pic" src="img/circle_profile_m.png"
                       alt="Venn diagram showing the intersection of finance, engineering, and design with me in the middle">
               </div>
               <div class="col">
@@ -132,7 +154,7 @@
   <div class="job">
     <div class="job-info">
         <div class="job-title">Lead Peer Advisor</div>
-        <div class="job-date">Sept 2022 - Present</div>
+        <div class="job-date">September 2022 - Present</div>
     </div>
     <div class="company">
         <div class="company-name">University of Washington Information School</div>
@@ -154,7 +176,7 @@
         <div class="job-info">
             <div class="job-title">Teacher Assistant</div>
             <div class="job-title-2">Intellectual Foundations of Informatics</div>
-            <div class="job-date">March 2022 - Present</div>
+            <div class="job-date">March 2022 - June 2023</div>
         </div>
         <div class="company">
             <div class="company-name">University of Washington Information School</div>
@@ -174,7 +196,7 @@
         <div class="job-info">
             <div class="job-title">Research Assistant</div>
             <div class="job-title-2">Improving women of color’s experience in computing education</div>
-            <div class="job-date">Nov 2021 - Feb 2022</div>
+            <div class="job-date">November 2021 - February 2022</div>
         </div>
         <div class="company">
             <div class="company-name">University of Washington</div>
@@ -322,6 +344,28 @@
       </footer>
   </div>
 </div>
+<!-- Include jQuery from a CDN or locally -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+  $(window).resize(function() {
+      if ($(window).width() <= 576) {
+          $('.careers').html('Data Analyst <br/> Software Developer <br/> Product Manager');
+      } else {
+          $('.careers').text('Data Analyst | Software Developer | Product Manager');
+      }
+  });
+  
+  $(document).ready(function() {
+      if ($(window).width() <= 576) {
+          $('.careers').html('Data Analyst <br/> Software Developer <br/> Product Manager');
+      } else {
+          $('.careers').text('Data Analyst | Software Developer | Product Manager');
+      }
+  });
+  </script>
+  
+
 
 </body>
 </html>

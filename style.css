@@ -11,17 +11,6 @@ body {
   background-color: #FFFFFF;  
 }
 
-/* .col {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.row {
-  display: flex;
-  align-items: center;
-} */
 
 
 main {
@@ -32,7 +21,6 @@ main {
 .title_background {
   background-color: #333;
   padding: 100px;
-  /* adjust the padding based on the desired appearance on different screen sizes */
   margin-bottom: 40px;
   
 }
@@ -122,6 +110,10 @@ main {
   #venn-diagram {
     width: 100%;
   }
+
+  #profile-pic {
+    width: 100%;
+  }
  
   #intro_paragraph {
    text-align: center;
@@ -130,40 +122,29 @@ main {
    align-content: center;
  }
 
-
-.bar {
-  overflow: hidden;
-  list-style-type: none;
-  margin: 0;
-  background-color: #333;
-  position: relative;
-  width: 100%;
-  font-weight: 300;  
-  display: flex;
-  justify-content: flex-end;
+ .navbar.bg-dark {
+  background-color: #333 !important;
 }
 
-.bar li {
-  display: inline;
-  order: -1;
-}
-
-.bar li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 20px 10px;
+.nav-item {
   margin-right: 60px;
-  text-decoration: none;
-  font-size: 20px;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-size: 20px !important;
   font-family: 'Poppins', sans-serif;
-
 }
 
-.bar li a:hover {
+.nav-link:hover {
   color: #00a8e8;
-  text-decoration: none;
 }
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+
 
 .projects_body {
 	justify-content: center;
@@ -307,31 +288,121 @@ footer li a:hover {
   color: #00a8e8;
 }
 
-@media (max-width: 991px) {
-  .featured-articles {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 767px) {
+@media (max-width: 575px) {
+  /* Styles for screens smaller than 576px */
   .featured-articles {
     grid-template-columns: 1fr;
   }
+
+  .about .row {
+    flex-direction: column-reverse;
+  }
+  .about .col {
+      margin-bottom: 20px;
+  }
+
+  .title_background {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+  }
+
+  .name {
+    font-size: 1.5em !important;
+  }
+
+  .careers {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: center;
+    transition: all 0.5s ease; 
+  }
+  
+
+  .nav-link {
+    color: #fff !important;
+  }
+
+  #profile-pic {
+    display: none;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 80%; /* adjust this value as needed */
+    height: auto; /* this will keep the aspect ratio of the content */
+    margin: 10px auto; /* this centers the card and provides some space between cards */
+  }
+
+  .modal-dialog {
+    max-width: 90%; /* Adjust as per requirement */
+    margin: 1.75rem auto; /* This gives some margin on the top and bottom */
+    position: relative;
+  }
+  .modal-content {
+    max-height: calc(100vh - 60px); /* This makes the modal take the full height of the screen, minus some pixels to account for margin */
+    overflow-y: auto; /* This will add a scrollbar if the content is taller than the max-height */
+  }
+
+  footer ul.footer_li {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  footer li {
+    display: inline-block;
+    padding-right: 10px;
+  }
+}
+  
+
+
+
+@media (max-width: 768px) {
+  .featured-articles {
+    grid-template-columns: 1fr;
+  }
+
+  .name {
+    font-size: 2em;
+  }
+
+  .careers {
+      font-size: 1em;
+  }
+
+  .nav-link {
+    color: #fff !important;
+  }
 }
 
-@media (min-width: 520px) and (max-width: 851px) {
+@media (min-width: 769px) and (max-width: 991px) {
   .featured-articles {
     grid-template-columns: repeat(2, 1fr);
   }
-}
+  
+  .name {
+    font-size: 5em;
+  }
 
-@media (min-width: 852px) {
-  .featured-articles {
-    grid-template-columns: repeat(3, 1fr);
+  .careers {
+    font-size: 1.25em;
   }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 992px) {
+  .featured-articles {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .title_background {
     background-color: #333;
     display: flex;
@@ -352,16 +423,10 @@ footer li a:hover {
   }
 
   .careers {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
-  .bar {
-    justify-content: center;
+  .nav-link {
+    color: #fff !important;
   }
-
-  .bar li a {
-    padding-right: 40px;
-    margin-right: 0px;
-  }
-
 }
