@@ -78,9 +78,13 @@ main {
   justify-content: center;
 }
 
-.modal-dialog {
-  min-width: 800px; /* Adjust the width as desired */
+
+
+.modal-content {
+  max-height: calc(100vh - 60px); /* Adjust the maximum height as needed */
+  overflow-y: auto; /* This will add a scrollbar if the content exceeds the maximum height */
 }
+
 
 .project-card {
   max-width: 250px;
@@ -324,7 +328,12 @@ footer li a:hover {
   
   .about {
     margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
 
+  #intro_paragraph {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
 
   .about .row {
@@ -333,7 +342,10 @@ footer li a:hover {
   .about .col {
       margin-bottom: 20px;
   }
-
+  #venn-diagram {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
 
   #profile-pic {
     display: none;
@@ -381,6 +393,14 @@ footer li a:hover {
     padding-right: 10px;
   }
 
+  footer {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+
 }
   
 
@@ -416,6 +436,11 @@ footer li a:hover {
   .careers {
     font-size: 1.25em;
   }
+
+  .modal-dialog {
+    min-width: 769px; /* Remove this line */
+  }
+  
 }
 
 @media (min-width: 992px) {
@@ -449,4 +474,9 @@ footer li a:hover {
   .nav-link {
     color: #fff !important;
   }
+
+  .modal-dialog {
+    min-width: 800px; /* Remove this line */
+  }
+  
 }
