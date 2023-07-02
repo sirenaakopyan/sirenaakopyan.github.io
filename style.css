@@ -294,11 +294,8 @@ footer li a:hover {
     grid-template-columns: 1fr;
   }
 
-  .about .row {
-    flex-direction: column-reverse;
-  }
-  .about .col {
-      margin-bottom: 20px;
+  .nav-link {
+    color: #fff !important;
   }
 
   .title_background {
@@ -308,6 +305,8 @@ footer li a:hover {
     height: 100vh;
     width: 100%;
     align-items: center;
+    margin-bottom: 0px;
+
   }
 
   .name {
@@ -323,13 +322,30 @@ footer li a:hover {
     transition: all 0.5s ease; 
   }
   
+  .about {
+    margin-bottom: 0px;
 
-  .nav-link {
-    color: #fff !important;
   }
+
+  .about .row {
+    flex-direction: column-reverse;
+  }
+  .about .col {
+      margin-bottom: 20px;
+  }
+
 
   #profile-pic {
     display: none;
+  }
+
+  .resume-section .job {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .resume-section .job-info {
+    flex-basis: 100%;
+    margin-bottom: 10px;
   }
 
   .card-container {
@@ -352,6 +368,9 @@ footer li a:hover {
     overflow-y: auto; /* This will add a scrollbar if the content is taller than the max-height */
   }
 
+
+
+  
   footer ul.footer_li {
     text-align: center;
     display: flex;
@@ -361,6 +380,7 @@ footer li a:hover {
     display: inline-block;
     padding-right: 10px;
   }
+
 }
   
 
