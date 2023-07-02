@@ -141,7 +141,7 @@ main {
 }
 
 .nav-link:hover {
-  color: #00a8e8;
+  color: #00a8e8 !important;
 }
 
 .navbar-toggler-icon {
@@ -292,6 +292,44 @@ footer li a:hover {
   color: #00a8e8;
 }
 
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.careers {
+  animation: fadeIn 2s ease-in-out;
+}
+
+  .mobile {
+    display: none;
+  }
+
+
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);   
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.visible {
+  animation: fadeInUp 1s ease-in-out;
+  opacity: 1 !important;
+}
+
+
+
+
 @media (max-width: 575px) {
   /* Styles for screens smaller than 576px */
   .featured-articles {
@@ -317,15 +355,16 @@ footer li a:hover {
     font-size: 1.5em !important;
   }
 
-  .careers {
+  /* .careers {
     font-size: 1em;
     color: #fff;
     font-weight: 300;
     line-height: 1.5em;
     text-align: center;
     transition: all 0.5s ease; 
-  }
-  
+  } */
+
+
   .about {
     margin-bottom: 0px;
     padding-bottom: 0px;
