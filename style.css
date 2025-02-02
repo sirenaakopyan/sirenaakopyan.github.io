@@ -1,0 +1,521 @@
+html{
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;  
+}
+
+
+
+main {
+  flex: 1;
+  margin-left: 1rem;
+}
+
+.title_background {
+  background-color: #333;
+  padding: 100px;
+  margin-bottom: 40px;
+  
+}
+
+.hi {
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.name {
+  font-size: 1em;
+}
+
+.careers {
+  font-size: .5em;
+}
+
+.container {
+  text-align: center;
+  /* center the elements within the container */
+}
+
+.project-heading {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.card {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  max-width: 250px;
+  min-height: 300px;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.modal-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.modal-content {
+  max-height: calc(100vh - 60px); /* Adjust the maximum height as needed */
+  overflow-y: auto; /* This will add a scrollbar if the content exceeds the maximum height */
+}
+
+
+.project-card {
+  max-width: 250px;
+  min-height: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-color: #f2f2f2;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.about {
+    display: grid;
+    grid-gap: 2rem;
+    margin: 2rem 0;
+    padding: 1em;
+    align-content: center;
+  }
+
+  #venn-diagram {
+    width: 100%;
+  }
+
+  #profile-pic {
+    width: 100%;
+  }
+ 
+  #intro_paragraph {
+   text-align: center;
+   vertical-align: center;
+   margin: 0 auto;
+   align-content: center;
+ }
+
+ .navbar.bg-dark {
+  background-color: #333 !important;
+}
+
+.nav-item {
+  margin-right: 60px;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-size: 20px !important;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover {
+  color: #00a8e8 !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+
+
+.projects_body {
+	justify-content: center;
+	text-align: center;
+  margin-top: 50px;
+}
+
+.featured_body {
+	justify-content: center;
+	text-align: center;
+  margin-top: 50px;
+}
+
+.projects_hackathons {
+	justify-content: center;
+	text-align: center;
+  margin-top: 25px;
+ 
+}
+
+#text_hack {
+  width: 75%;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 20px;
+	text-align: center;
+}
+
+.resume-heading a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.resume-heading a:hover {
+  color: #00a8e8;
+}
+
+.resume-section {
+  margin: 40px;
+}
+
+.resume-section h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #4A4A4A;
+  text-align: center;
+}
+
+.resume-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.resume-section .job {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.resume-section .job-info {
+  flex-basis: 35%;
+}
+
+.resume-section .job-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #000;
+  display: inline-block;
+}
+
+.resume-section .job-title-2 {
+  margin-bottom: 5px;
+  color: #555;
+  display: inline-block;
+}
+
+.resume-section .job-date {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.resume-section .company {
+  flex-basis: 60%;
+  display: inline-block;
+}
+
+.resume-section .company-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #000000;
+  display: inline-block;
+}
+
+.resume-section .job-description {
+  color: #555;
+  line-height: 1.5;
+}
+
+.resume-section ul {
+  list-style-type: circle, black;
+}
+
+#contact {
+  background-color: #333;
+  padding: 100px;
+  /* adjust the padding based on the desired appearance on different screen sizes */
+}
+
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  color: #333333;
+  padding: 25px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer li {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+footer li a:hover {
+  color: #00a8e8;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.careers {
+  animation: fadeIn 2s ease-in-out;
+}
+
+  .mobile {
+    display: none;
+  }
+
+
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);   
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.visible {
+  animation: fadeInUp 1s ease-in-out;
+  opacity: 1 !important;
+}
+
+
+
+
+@media (max-width: 575px) {
+  /* Styles for screens smaller than 576px */
+  .featured-articles {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-link {
+    color: #fff !important;
+  }
+
+  .title_background {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 0px;
+
+  }
+
+  .name {
+    font-size: 1.5em !important;
+  }
+
+  /* .careers {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: center;
+    transition: all 0.5s ease; 
+  } */
+
+
+  .about {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  #intro_paragraph {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .about .row {
+    flex-direction: column-reverse;
+  }
+  .about .col {
+      margin-bottom: 20px;
+  }
+  #venn-diagram {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  #profile-pic {
+    display: none;
+  }
+
+  .resume-section .job {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .resume-section .job-info {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 80%; /* adjust this value as needed */
+    height: auto; /* this will keep the aspect ratio of the content */
+    margin: 10px auto; /* this centers the card and provides some space between cards */
+  }
+
+  .modal-dialog {
+    max-width: 90%; /* Adjust as per requirement */
+    margin: 1.75rem auto; /* This gives some margin on the top and bottom */
+    position: relative;
+  }
+  .modal-content {
+    max-height: calc(100vh - 60px); /* This makes the modal take the full height of the screen, minus some pixels to account for margin */
+    overflow-y: auto; /* This will add a scrollbar if the content is taller than the max-height */
+  }
+
+
+
+  
+  footer ul.footer_li {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  footer li {
+    display: inline-block;
+    padding-right: 10px;
+  }
+
+  footer {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+
+}
+  
+
+
+
+@media (max-width: 768px) {
+  .featured-articles {
+    grid-template-columns: 1fr;
+  }
+
+  .name {
+    font-size: 2em;
+  }
+
+  .careers {
+      font-size: 1em;
+  }
+
+  .nav-link {
+    color: #fff !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .featured-articles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .name {
+    font-size: 5em;
+  }
+
+  .careers {
+    font-size: 1.25em;
+  }
+
+  .modal-dialog {
+    min-width: 769px; /* Remove this line */
+  }
+  
+}
+
+@media (min-width: 992px) {
+  .featured-articles {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .title_background {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+  }
+
+  .hi {
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .name {
+    font-size: 6em;
+  }
+
+  .careers {
+    font-size: 2em;
+  }
+
+  .nav-link {
+    color: #fff !important;
+  }
+
+  .modal-dialog {
+    min-width: 800px; /* Remove this line */
+  }
+  
+}
